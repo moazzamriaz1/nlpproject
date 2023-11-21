@@ -30,7 +30,7 @@ def model3():
         return prediction[0]
 
     # Streamlit app
-    st.title("Emotion Classification App")
+    
 
     # User input for prediction
     user_input = st.text_area("Enter a sentence:")
